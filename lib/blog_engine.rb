@@ -1,3 +1,4 @@
+require "view_component"
 require "blog_engine/version"
 require "blog_engine/engine"
 
