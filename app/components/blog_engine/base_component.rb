@@ -30,12 +30,12 @@ module BlogEngine
     #   @i18n_scope ||= name.underscore.tr("/", ".")
     # end
     #
-    # def self.stimulus_id
-    #   @stimulus_id ||= name.underscore
-    #     .sub(/^solidus_admin\/(.*)\/component$/, '\1')
-    #     .gsub("/", "--")
-    #     .tr("_", "-")
-    # end
+    def self.stimulus_id
+      @stimulus_id ||= name.underscore
+        .sub(/^blog_engine\/(.*)\/component$/, '\1')
+        .gsub("/", "--")
+        .tr("_", "-")
+    end
     #
     # delegate :stimulus_id, to: :class
     # delegate :search_filter_params, to: :helpers
