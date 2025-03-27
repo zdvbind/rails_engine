@@ -37,7 +37,7 @@ module BlogEngine
         .tr("_", "-")
     end
     #
-    # delegate :stimulus_id, to: :class
+    delegate :stimulus_id, to: :class
     # delegate :search_filter_params, to: :helpers
   end
 end
