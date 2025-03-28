@@ -22,6 +22,8 @@ Gem::Specification.new do |spec|
     Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
   end
 
-  spec.add_dependency "rails", ">= 7.2.2.1"
+  spec.add_dependency "rails", "~> 7.2.2.1"
   spec.add_dependency "view_component", ">= 3.21.0"
+  spec.add_dependency "importmap-rails"
+  spec.add_dependency "stimulus-rails"
 end

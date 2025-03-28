@@ -17,3 +17,6 @@ gem "rubocop-rails-omakase", require: false
 
 gem "view_component"
 gem "tailwindcss-rails"
+gem "importmap-rails"
+gem "stimulus-rails"
+
